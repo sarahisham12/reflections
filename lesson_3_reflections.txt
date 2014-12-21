@@ -1,3 +1,9 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Where was your commit?
+
+Before you ran git push, your change should have only existed locally via git log. Commits will not automatically be shared to remotes - you have to manually push your branch if you want to share changes.
+
+After you ran git push, your change should have existed locally and on your fork. It should not have existed on Larry's repository, which is the repository you forked. The reason you forked in the first place is because you don't have permission to change Larry's repository!
