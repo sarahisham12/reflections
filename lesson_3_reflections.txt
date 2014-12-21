@@ -4,6 +4,8 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Where was your commit?
 
-Before you ran git push, your change should have only existed locally via git log. Commits will not automatically be shared to remotes - you have to manually push your branch if you want to share changes.
+    Before you ran git push, your change should have only existed locally via git log. Commits will not automatically be shared to remotes - you have to manually push your branch if you want to share changes.
+    
+    After you ran git push, your change should have existed locally and on your fork. It should not have existed on Larry's repository, which is the repository you forked. The reason you forked in the first place is because you don't have permission to change Larry's repository!
 
-After you ran git push, your change should have existed locally and on your fork. It should not have existed on Larry's repository, which is the repository you forked. The reason you forked in the first place is because you don't have permission to change Larry's repository!
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
